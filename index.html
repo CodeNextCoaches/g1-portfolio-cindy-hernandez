@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>New Personal WebPage</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+
   </head>
+
   <body>
-    <div class="container">
-      <nav>
-        Navigation
-      </nav>
-      <div id="banner">
-        Banner
-      </div>
-      <div id="about">
-        About
-      </div>
-      <div id="experience">
-        Experience
-      </div>
-      <div id="projects">
-        Projects
-      </div>
-      <div id="contact">
-        Contact
-      </div>
-      <footer>
-        Footer
-      </footer>
+    <h1  id = "name" class="text-align-center">Cindy Hernandez</h1>
+    <p id = "p1"><em>I'm a 15 year old student from New York, and I attend the Chapin School.</em></p>
+    <ul >
+      <br>
+      <li><a class="active" href="index.html">About Me</a></li>
+      <li><a class="active" href="projects.html">Projects</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="fullscreen-bg">
+        <video loop muted autoplay poster="images/still-pic.jpg" class="fullscreen-bg__video">         
+            <source src="videos/background-vid.mp4" type="video/mp4">
+        </video>
     </div>
+
+      <h1 id =  "secondHeader">Here is some info about me </h1>
+
+        <div class="parallax"></div>
+
+    <div style="height:300px; background-color: #ffffff; font-size: 20px; text-align: center; color: black; margin-top: -200px">
+            <br>
+            <h5>About Me</h5>
+            <p style = "margin-left: 150px; margin-right: 150px">Hi, I'm currently a sophmore at the Chapin School. I live in New York. I am interested in the arts and computer science. A fun fact about me is that I have four dogs, two turtles, and two fish. I have two younger siblings. I am a part of my school's acapella group, chorus, drama club, media arts club, and coding club.  I have been in productions of Cabaret, Bring it On, Macbeth, and La Casa de Bernada Alba. I am also a girl scout, and do the choir at my Church. I take computer science classes at google as well, and I am part of the Built by Girls mentoring organization. </p>
+            
+    </div>
+
+
+    <div class="parallax1"></div>
+
+    <div style="height:300px; background-color: #ffffff; font-size: 20px; text-align: center; color: black; margin-top: -200px">
+            <br>
+            <h5>Coding Experience</h5>
+            <p style = "margin-left: 150px; margin-right: 150px">I started coding in 8th grade with the Google Code Next program. Although I initiallu started with scratch I have progressed and explored many other different languages. In 9th grade I learned java. Last summer I did a camp where I learned HTML, CSS, and Javascript, which I am still learning right now. I also recently took a course at school where I learned Swift. Last summer I also won a business/coding competition at my camp called IFE.</p>
+            
+    </div>
+
+    <div class="parallax2"></div>
+
+    <footer>
+      <br>
+      <p>Site Designed by Cindy Hernandez.</p>
+      <br>
+    </footer>
+
   </body>
+
 </html>
